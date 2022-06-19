@@ -1,0 +1,25 @@
+<svg width="800.0000000000001" height="800.0000000000001" xmlns="http://www.w3.org/2000/svg">
+ <title>Logo</title>
+
+ <g id="letters">
+  <title>Letters</title>
+  <g id="letter-j">
+   <title>Letter J</title>
+   <rect rx="15" id="l-j-left" height="300" width="30" y="250" x="325" stroke-width="0" fill="#000000" stroke="#000000"/>
+   <rect stroke="#000000" rx="15" id="l-j-bot" height="30" width="150" y="520" x="215" stroke-width="0" fill="#000000"/>
+  </g>
+  <g id="letter-f">
+   <title>Letter F</title>
+   <rect rx="15" id="l-f-top" height="30" width="150" y="250" x="430" stroke-width="0" fill="#000000" stroke="#000000"/>
+   <rect stroke="#000000" rx="15" id="l-f-left" height="300" width="30" y="250" x="440" stroke-width="0" fill="#000000"/>
+   <rect stroke="#000000" rx="15" id="l-f-mid" height="30" width="120" y="374.07694" x="427.94014" stroke-width="0" fill="#000000"/>
+  </g>
+ </g>
+ <g id="borders">
+  <title>Borders</title>
+  <rect rx="30" stroke="rgb(0,0,0)" id="border-top" height="30" width="730" y="50" x="35" stroke-width="0" fill="#000000"/>
+  <rect rx="30" stroke="rgb(0,0,0)" id="border-left" height="730" width="30" y="35" x="50" stroke-width="0" fill="#000000"/>
+  <rect rx="30" stroke="rgb(0,0,0)" id="border-bottom" height="30" width="730" y="720" x="35" stroke-width="0" fill="#000000"/>
+  <rect rx="30" stroke="rgb(0,0,0)" id="border-right" height="730" width="30" y="35" x="720" stroke-width="0" fill="#000000"/>
+ </g>
+</svg>
