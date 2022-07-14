@@ -1,0 +1,9 @@
+<svg width="800.0000000000001" height="800.0000000000001" xmlns="http://www.w3.org/2000/svg">
+ <title>Logo</title>
+
+ <g id="phone">
+   <rect stroke="#232c33" stroke-width="10" rx="30" id="phone-border" height="500" width="250" y="15.00001" x="531" fill="#eff1f3"/>
+   <path stroke="#000" stroke-width="0" id="phone-button-top" d="m641.41782,31.27065l29.16435,0l0,0c3.82061,0 6.91782,3.80559 6.91782,8.50001c0,4.69443 -3.09721,8.50001 -6.91782,8.50001l-29.16435,0l0,0c-3.82061,0 -6.91782,-3.80558 -6.91782,-8.50001c0,-4.69443 3.09722,-8.50001 6.91782,-8.50001z" fill="#0081a7"/>
+   <ellipse id="phone-button-bottom" stroke="#000" stroke-width="0" ry="12.5" rx="12.5" cy="487.5" cx="656" fill="#0081a7"/>
+  </g>
+</svg>
