@@ -1,15 +1,26 @@
-import Footer from "../Footer";
-import StyledLayout from "./Styled";
+import { ThemeProvider } from 'styled-components'
+
+import { theme } from '../../assets'
+import Contact from '../Contact'
+import Footer from '../Footer'
+import GlobalStyle from '../GlobalStyle'
+import StyledLayout from './Styled'
 
 type Props = {
-    readonly children?: React.ReactNode
+  readonly children?: React.ReactNode
 }
 
-export default function Layout(props: Props) {
-    return (
+const Layout = (props: Props) => {
+  return (
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
       <StyledLayout>
         <main>{props.children}</main>
+        <Contact />
         <Footer />
       </StyledLayout>
-    )
-  }
+    </ThemeProvider>
+  )
+}
+
+export default Layout
