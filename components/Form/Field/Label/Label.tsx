@@ -1,10 +1,10 @@
-import StyledLabel from './Styled';
+import StyledLabel from './Styled'
 
 type Props = {
-  readonly for: string;
-  readonly text: string;
-};
+  readonly for: string
+  readonly text: string
+}
 
-const Label = (props: Props) => <StyledLabel htmlFor={props.for}>{props.text}</StyledLabel>;
+const Label = (props: Props) => <StyledLabel htmlFor={props.for}>{props.text}</StyledLabel>
 
-export default Label;
+export default Label

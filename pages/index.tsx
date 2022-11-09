@@ -1,5 +1,5 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
+import type { NextPage } from 'next'
+import Head from 'next/head'
 
 const Home: NextPage = () => (
   <div>
@@ -9,9 +9,8 @@ const Home: NextPage = () => (
       <link rel="icon" href="/favicon.ico" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap" rel="stylesheet" />
     </Head>
   </div>
-);
+)
 
-export default Home;
+export default Home

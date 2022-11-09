@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lintfix": "npx eslint . --ext .ts --fix"
+    "lintfix": "npx eslint . --ext .ts --ext .tsx --fix"
   },
   "dependencies": {
     "next": "12.1.6",
